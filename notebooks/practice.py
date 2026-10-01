@@ -2,6 +2,20 @@
 #     print("your ice cream !")
 # get_ice()
 
+# a = 10
+# b = a        # the label b now points at the same 10
+# a = 20 
+
+# print("a is", type(a))
+# print("b is", b)
+
+
+
+# greet = "Hello"
+# input = input("Enter your name: ")
+# print(greet + " , " + input + " ! ")
+
+
 # val1= input("enter first number:")
 # val2 = input("enter second number:")
 # add = int(val1) + float(val2)
@@ -38,12 +52,7 @@
 # New_average = New.average()
 # New_grade = New.grade()
 # # New_name = New.name()
-# print(New_average, "and has grade", New_gra
+# print(New_average, "and has grade", New_grade, "and name is", New.name)
 
-def top_items(n, *sales):
-    # top_items = [2, ("pen", 50), ("book", 300), ("bag", 120)]
-    sorted_sales = sorted(sales, key=lambda x: x[1], reverse=True)
 
-print(top_items(2, ("pen", 50), ("book", 300), ("bag", 120)))
-print(top_items(5, ("pen", 50), ("book", 300)))
-print(top_items(3))
+
